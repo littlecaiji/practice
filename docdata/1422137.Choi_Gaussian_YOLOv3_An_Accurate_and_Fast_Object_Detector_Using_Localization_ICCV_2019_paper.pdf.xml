@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE documentInfo>
+<documentInfo url="/home/p310/文档/Papers/Choi_Gaussian_YOLOv3_An_Accurate_and_Fast_Object_Detector_Using_Localization_ICCV_2019_paper.pdf">
+ <pageList>
+  <page number="0">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T14:58:20" uniqueName="okular-{0f317a92-c364-4bf4-9be8-be1ab6ff6336}" author="p310" modifyDate="2019-12-19T14:58:20" color="#00ffff">
+      <boundary l="0.340541" r="0.467568" b="0.384736" t="0.374281"/>
+     </base>
+     <hl>
+      <quad dx="0.340596" cx="0.46789" dy="0.374445" bx="0.46789" cy="0.374445" ax="0.340596" by="0.385093" ay="0.385093" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T14:58:48" uniqueName="okular-{5c4599bb-a438-483d-83e4-43b6407bd8d0}" author="p310" contents="阻碍" modifyDate="2019-12-19T14:58:48" color="#ffff00">
+      <boundary l="0.268243" r="0.310135" b="0.415055" t="0.4046"/>
+     </base>
+     <hl>
+      <quad dx="0.268349" cx="0.31078" dy="0.404614" bx="0.31078" cy="0.404614" ax="0.268349" by="0.415262" ay="0.415262" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T14:59:07" uniqueName="okular-{0f60b782-1434-457b-97b1-954f5cd6958a}" author="p310" contents="应对" modifyDate="2019-12-19T14:59:07" color="#ffff00">
+      <boundary l="0.396622" r="0.467568" b="0.430214" t="0.419237"/>
+     </base>
+     <hl>
+      <quad dx="0.396789" cx="0.46789" dy="0.419698" bx="0.46789" cy="0.419698" ax="0.396789" by="0.430346" ay="0.430346" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:00:13" uniqueName="okular-{af093e52-ed24-4227-b2ba-35f2a1de01f2}" author="p310" modifyDate="2019-12-19T15:00:13" color="#eb0bdc">
+      <boundary l="0.181757" r="0.436486" b="0.611082" t="0.600627"/>
+     </base>
+     <hl>
+      <quad dx="0.182339" cx="0.436927" dy="0.60071" bx="0.436927" cy="0.60071" ax="0.182339" by="0.611358" ay="0.611358" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:00:53" uniqueName="okular-{f70d8c41-6f22-4733-bff0-ac77cbb63979}" author="p310" modifyDate="2019-12-19T15:00:53" color="#df54eb">
+      <boundary l="0.39527" r="0.443243" b="0.641401" t="0.630423"/>
+     </base>
+     <hl>
+      <quad dx="0.395642" cx="0.443807" dy="0.630878" bx="0.443807" cy="0.630878" ax="0.395642" by="0.641526" ay="0.641526" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:01:01" uniqueName="okular-{345becb0-cea5-4ca7-a02d-402547591c77}" author="p310" modifyDate="2019-12-19T15:01:01" color="#df54eb">
+      <boundary l="0.0810811" r="0.322973" b="0.65656" t="0.645583"/>
+     </base>
+     <hl>
+      <quad dx="0.081422" cx="0.323394" dy="0.645963" bx="0.323394" cy="0.645963" ax="0.081422" by="0.65661" ay="0.65661" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:07:08" uniqueName="okular-{7cc10b57-d56e-4cf6-84a3-b0f056f52387}" author="p310" contents="干预" modifyDate="2019-12-19T15:07:08" color="#ffff00">
+      <boundary l="0.0810811" r="0.890541" b="0.900157" t="0.205436"/>
+     </base>
+     <hl>
+      <quad dx="0.409404" cx="0.46789" dy="0.889086" bx="0.46789" cy="0.889086" ax="0.409404" by="0.900621" ay="0.900621" feather="1"/>
+      <quad dx="0.504587" cx="0.529817" dy="0.296362" bx="0.529817" cy="0.296362" ax="0.504587" by="0.307897" ay="0.307897" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:08:03" uniqueName="okular-{c17db8d3-6083-4701-bbc8-f2aefc0815b8}" author="p310" contents="激光雷达" modifyDate="2019-12-19T15:08:03" color="#ffff00">
+      <boundary l="0.65473" r="0.885811" b="0.352849" t="0.341349"/>
+     </base>
+     <hl>
+      <quad dx="0.654817" cx="0.886468" dy="0.341615" bx="0.886468" cy="0.341615" ax="0.654817" by="0.35315" ay="0.35315" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:08:28" uniqueName="okular-{a1725024-9302-4390-b116-fb53d65e67b2}" author="p310" contents="无线电探测雷达" modifyDate="2019-12-19T15:08:28" color="#ffff00">
+      <boundary l="0.528378" r="0.766892" b="0.368008" t="0.356508"/>
+     </base>
+     <hl>
+      <quad dx="0.52867" cx="0.767202" dy="0.356699" bx="0.767202" cy="0.356699" ax="0.52867" by="0.368234" ay="0.368234" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:14:53" uniqueName="okular-{55dda66e-7626-4225-bf8e-6d348a8a129a}" author="p310" modifyDate="2019-12-19T15:14:53" color="#df54eb">
+      <boundary l="0.504054" r="0.794595" b="0.538421" t="0.526921"/>
+     </base>
+     <hl>
+      <quad dx="0.504587" cx="0.794725" dy="0.527063" bx="0.794725" cy="0.527063" ax="0.504587" by="0.538598" ay="0.538598" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:15:30" uniqueName="okular-{1a63e25a-fb44-4b8c-a772-1afeb8ef3f5d}" author="p310" contents="不可缺少的" modifyDate="2019-12-19T15:15:30" color="#ffff00">
+      <boundary l="0.504054" r="0.890541" b="0.613696" t="0.587036"/>
+     </base>
+     <hl>
+      <quad dx="0.853211" cx="0.891055" dy="0.5874" bx="0.891055" cy="0.5874" ax="0.853211" by="0.598935" ay="0.598935" feather="1"/>
+      <quad dx="0.504587" cx="0.561927" dy="0.602484" bx="0.561927" cy="0.602484" ax="0.504587" by="0.61402" ay="0.61402" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:15:53" uniqueName="okular-{fc5160b6-5e57-47ad-834b-0eeedd7303a0}" author="p310" contents="进行、实施" modifyDate="2019-12-19T15:15:53" color="#ffff00">
+      <boundary l="0.566216" r="0.617568" b="0.659174" t="0.647674"/>
+     </base>
+     <hl>
+      <quad dx="0.566514" cx="0.618119" dy="0.647737" bx="0.618119" cy="0.647737" ax="0.566514" by="0.659272" ay="0.659272" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:16:44" uniqueName="okular-{f06c7907-c1af-456f-8de4-9d3ec68dc6d8}" author="p310" contents="补偿" modifyDate="2019-12-19T15:16:44" color="#ffff00">
+      <boundary l="0.735811" r="0.835811" b="0.794564" t="0.783063"/>
+     </base>
+     <hl>
+      <quad dx="0.736239" cx="0.836009" dy="0.783496" bx="0.836009" cy="0.783496" ax="0.736239" by="0.795031" ay="0.795031" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:17:09" uniqueName="okular-{4dab8d84-4d99-4260-89aa-ae07714042d4}" author="p310" contents="中间" modifyDate="2019-12-19T15:17:09" color="#ffff00">
+      <boundary l="0.75" r="0.831081" b="0.855201" t="0.843701"/>
+     </base>
+     <hl>
+      <quad dx="0.75" cx="0.831422" dy="0.843833" bx="0.831422" cy="0.843833" ax="0.75" by="0.855368" ay="0.855368" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:17:39" uniqueName="okular-{2f8f1f4f-a5bb-446d-a95e-4ec2dc719cad}" author="p310" contents="尺度不敏感" modifyDate="2019-12-19T15:17:39" color="#ffff00">
+      <boundary l="0.617568" r="0.729054" b="0.88552" t="0.873497"/>
+     </base>
+     <hl>
+      <quad dx="0.618119" cx="0.724771" dy="0.874002" bx="0.724771" cy="0.874002" ax="0.618119" by="0.885537" ay="0.885537" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:18:11" uniqueName="okular-{0ac625ad-c5ec-49b8-be43-e908eff8e582}" author="p310" contents="增强" modifyDate="2019-12-19T15:18:11" color="#ffff00">
+      <boundary l="0.0810811" r="0.890541" b="0.958181" t="0.29587"/>
+     </base>
+     <hl>
+      <quad dx="0.831422" cx="0.891055" dy="0.889086" bx="0.891055" cy="0.889086" ax="0.831422" by="0.900621" ay="0.900621" feather="1"/>
+     </hl>
+    </annotation>
+   </annotationList>
+  </page>
+  <page number="1">
+   <annotationList>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:18:52" uniqueName="okular-{d671807f-55f8-4048-920d-b471eab1dab8}" author="p310" contents="善于接受的，能容纳的" modifyDate="2019-12-19T15:18:52" color="#ffff00">
+      <boundary l="0.294595" r="0.352703" b="0.166754" t="0.155254"/>
+     </base>
+     <hl>
+      <quad dx="0.294725" cx="0.353211" dy="0.15528" bx="0.353211" cy="0.15528" ax="0.294725" by="0.166815" ay="0.166815" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:19:22" uniqueName="okular-{9fd27e97-cf96-49d2-86bb-df938d7cef87}" author="p310" contents="先决条件" modifyDate="2019-12-19T15:19:22" color="#ffff00">
+      <boundary l="0.367568" r="0.444595" b="0.242028" t="0.230528"/>
+     </base>
+     <hl>
+      <quad dx="0.368119" cx="0.444954" dy="0.230701" bx="0.444954" cy="0.230701" ax="0.368119" by="0.242236" ay="0.242236" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:21:30" uniqueName="okular-{64c81755-76a7-4cd3-95d7-2622ad26a6fe}" author="p310" contents="因此" modifyDate="2019-12-19T15:21:30" color="#ffff00">
+      <boundary l="0.291216" r="0.389865" b="0.317303" t="0.305802"/>
+     </base>
+     <hl>
+      <quad dx="0.291284" cx="0.380734" dy="0.306122" bx="0.380734" cy="0.306122" ax="0.291284" by="0.317657" ay="0.317657" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:40:54" uniqueName="okular-{2ec7a22a-6a9d-48f7-a642-7a7c8affbe41}" author="p310" contents="即使被检测物体的bbox坐标是已知的，但bbox结果的不确定性却是未知的" modifyDate="2019-12-19T15:40:54" color="#00ffff">
+      <boundary l="0.0810811" r="0.467568" b="0.416623" t="0.375849"/>
+     </base>
+     <hl>
+      <quad dx="0.172018" cx="0.46789" dy="0.37622" bx="0.46789" cy="0.37622" ax="0.172018" by="0.386868" ay="0.386868" feather="1"/>
+      <quad dx="0.081422" cx="0.46789" dy="0.391304" bx="0.46789" cy="0.391304" ax="0.081422" by="0.401952" ay="0.401952" feather="1"/>
+      <quad dx="0.081422" cx="0.225917" dy="0.406389" bx="0.225917" cy="0.406389" ax="0.081422" by="0.417036" ay="0.417036" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:43:06" uniqueName="okular-{d7f042dd-1c2f-4052-8631-c04e3439d800}" author="p310" contents="传统的" modifyDate="2019-12-19T15:43:06" color="#ffff00">
+      <boundary l="0.276351" r="0.364189" b="0.416623" t="0.406168"/>
+     </base>
+     <hl>
+      <quad dx="0.276376" cx="0.358945" dy="0.406389" bx="0.358945" cy="0.406389" ax="0.276376" by="0.417036" ay="0.417036" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:43:28" uniqueName="okular-{aa138581-bcb5-4c7c-9384-683eeb6261a6}" author="p310" modifyDate="2019-12-19T15:43:28" color="#df54eb">
+      <boundary l="0.0810811" r="0.467568" b="0.462101" t="0.436487"/>
+     </base>
+     <hl>
+      <quad dx="0.334862" cx="0.46789" dy="0.436557" bx="0.46789" cy="0.436557" ax="0.334862" by="0.447205" ay="0.447205" feather="1"/>
+      <quad dx="0.081422" cx="0.243119" dy="0.451642" bx="0.243119" cy="0.451642" ax="0.081422" by="0.462289" ay="0.462289" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:43:37" uniqueName="okular-{2f4e830b-3289-4698-b0f4-e01b46d1cc2e}" author="p310" contents="关于" modifyDate="2019-12-19T15:43:37" color="#ffff00">
+      <boundary l="0.0810811" r="0.143919" b="0.462101" t="0.451124"/>
+     </base>
+     <hl>
+      <quad dx="0.081422" cx="0.144495" dy="0.451642" bx="0.144495" cy="0.451642" ax="0.081422" by="0.462289" ay="0.462289" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:44:20" uniqueName="okular-{4dfc8068-c43e-417e-ab66-2baf5321458a}" author="p310" contents="FP：没有物体却检测到了一个物体，或着 确实有一个物体但检测不准确。" modifyDate="2019-12-19T15:44:20" color="#ffff00">
+      <boundary l="0.0810811" r="0.890541" b="0.900157" t="0.0946158"/>
+     </base>
+     <hl>
+      <quad dx="0.402523" cx="0.46789" dy="0.451642" bx="0.46789" cy="0.451642" ax="0.402523" by="0.462289" ay="0.462289" feather="1"/>
+      <quad dx="0.081422" cx="0.46789" dy="0.466726" bx="0.46789" cy="0.466726" ax="0.081422" by="0.477374" ay="0.477374" feather="1"/>
+      <quad dx="0.081422" cx="0.46789" dy="0.48181" bx="0.46789" cy="0.48181" ax="0.081422" by="0.493345" ay="0.493345" feather="1"/>
+      <quad dx="0.081422" cx="0.233945" dy="0.496894" bx="0.233945" cy="0.496894" ax="0.081422" by="0.508429" ay="0.508429" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:45:39" uniqueName="okular-{7ede3690-aa06-4bef-a5e4-5870d73cef21}" author="p310" contents="过度的" modifyDate="2019-12-19T15:45:39" color="#ffff00">
+      <boundary l="0.0810811" r="0.467568" b="0.553581" t="0.526921"/>
+     </base>
+     <hl>
+      <quad dx="0.426606" cx="0.46789" dy="0.527063" bx="0.46789" cy="0.527063" ax="0.426606" by="0.538598" ay="0.538598" feather="1"/>
+      <quad dx="0.081422" cx="0.107798" dy="0.542147" bx="0.107798" cy="0.542147" ax="0.081422" by="0.553682" ay="0.553682" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:45:56" uniqueName="okular-{df13b388-f6e1-4ab1-8aba-881f02418f97}" author="p310" contents="混乱" modifyDate="2019-12-19T15:45:56" color="#ffff00">
+      <boundary l="0.314189" r="0.378378" b="0.583377" t="0.571877"/>
+     </base>
+     <hl>
+      <quad dx="0.31422" cx="0.37844" dy="0.572316" bx="0.37844" cy="0.572316" ax="0.31422" by="0.583851" ay="0.583851" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base flags="0" creationDate="2019-12-19T15:49:38" uniqueName="okular-{f996fca6-d634-4823-945f-8bd5cb5dfacc}" author="p310" contents="进行" modifyDate="2019-12-19T15:49:38" color="#ffff00">
+      <boundary l="0.222297" r="0.347973" b="0.674334" t="0.662311"/>
+     </base>
+     <hl>
+      <quad dx="0.222477" cx="0.348624" dy="0.662822" bx="0.348624" cy="0.662822" ax="0.222477" by="0.674357" ay="0.674357" feather="1"/>
+     </hl>
+    </annotation>
+   </annotationList>
+  </page>
+ </pageList>
+ <generalInfo>
+  <history>
+   <oldPage viewport="4;C2:0.520069:0.606477:1"/>
+   <oldPage viewport="5;C2:0.192087:0.621562:1"/>
+   <oldPage viewport="6;C2:0.760894:0.56921:1"/>
+   <oldPage viewport="4;C2:0.499662:0.0101934:1"/>
+   <oldPage viewport="3;C2:0.499662:0.0128071:1"/>
+   <oldPage viewport="2;C2:0.499662:0.0154208:1"/>
+   <oldPage viewport="1;C2:0.499662:0.0206482:1"/>
+   <oldPage viewport="0;C2:0.499662:0.995557:1"/>
+   <oldPage viewport="1;C2:0.499662:0.982488:1"/>
+   <oldPage viewport="2;C2:0.499662:0.0389441:1"/>
+   <current viewport="1;C2:0.499662:0.762938:1"/>
+  </history>
+  <views>
+   <view name="PageView">
+    <zoom mode="1" value="1.81373"/>
+   </view>
+  </views>
+ </generalInfo>
+</documentInfo>
