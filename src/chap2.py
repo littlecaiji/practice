@@ -6,10 +6,10 @@
 
 # coding=utf-8
 import numpy as np
-
+import random
 
 def sigmoid(z):
-    return 1.0/(1.0 + np.exp(z))
+    return 1.0/(1.0 + np.exp(-z))
 
 
 def sigmoid_prime(z):
@@ -41,7 +41,7 @@ class Network(object):
         n = len(training_data)
         # 进行epochs次循环
         for j in range(epochs):
-            np.random.shuffle(training_data)
+            random.shuffle(training_data)
             # 将training data切分
             mini_batches = [training_data[k:k+bathc_size]
                             for k in range(0, n, bathc_size)]
@@ -57,13 +57,6 @@ class Network(object):
     def update_mini_batch(self, mini_batch, eta):
         nabla_b = [np.zeros(b.shape) for b in self.biases]
         nabla_w = [np.zeros(w.shape) for w in self.weights]
-        '''
-        for x, y in mini_batch:
-            # 调用backprop
-            delta_nabla_b, delta_nabla_w = self.backprop(x, y)
-            nabla_b = [nb+dnb for nb, dnb in zip(nabla_b, delta_nabla_b)] # 这里是对nabla_b做了累加
-            nabla_w = [nw+dnw for nw, dnw in zip(nabla_w, delta_nabla_w)]
-        '''
         # mini_batch是一个list，长度为batch_size 10
         # mini_batch[0][0]是第一个batch的x向量，mini_batch[0][1]是第一个batch的y向量
         inputX_size = mini_batch[0][0].shape[0]
@@ -76,7 +69,6 @@ class Network(object):
             x_matrix[:, count] = x.flatten()
             y_matrix[:, count] = y.flatten()
             count += 1
-
         nabla_b, nabla_w = self.backprop(x_matrix, y_matrix)
 
         self.weights = [w-(eta)*nw for w,
@@ -102,18 +94,22 @@ class Network(object):
             z = np.dot(w, activation) + b
             zs.append(z)
             activation = sigmoid(z)
-            activations.append(activations)
+            activations.append(activation)
 
         # backward pass
-        delta = self.cost_derivative(activations[-1],y) * sigmoid_prime(zs[-1]) # 输出层误差
-        delta = delta.sum(axis=1,keepdims=True) / batch_size
-        nabla_b[-1] = delta
-        nabla_w[-1] = np.dot(activations[-2],delta)
-        for l in xrange(2,self.num_layers):
-            delta = np.dot(self.weights[-l+1].transpose(),delta) * sigmoid_prime(zs[-l])
-            delta = delta.sum(axis=1,keepdims=True) / batch_size
-            nabla_b[-l] = delta
-            nabla_w[-l] = np.dot(activations[-l-1],delta)
+        delta = self.cost_derivative(
+            activations[-1], y) * sigmoid_prime(zs[-1])  # 输出层误差
+        delta_mean = delta.sum(axis=1, keepdims=True) / batch_size
+        nabla_b[-1] = delta_mean
+        w_tmp = np.dot(delta, activations[-2].transpose())
+        nabla_w[-1] = w_tmp / batch_size
+        for l in xrange(2, self.num_layers):
+            delta = np.dot(self.weights[-l+1].transpose(),
+                           delta) * sigmoid_prime(zs[-l])
+            delta_mean = delta.sum(axis=1, keepdims=True) / batch_size
+            nabla_b[-l] = delta_mean
+            w_tmp = np.dot(delta, activations[-l-1].transpose())
+            nabla_w[-l] = w_tmp / batch_size
 
         return (nabla_b, nabla_w)
 

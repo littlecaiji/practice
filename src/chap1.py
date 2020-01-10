@@ -1,9 +1,9 @@
 # coding=utf-8
 import numpy as np
-
+import random
 
 def sigmoid(z):
-    return 1.0/(1.0 + np.exp(z))
+    return 1.0/(1.0 + np.exp(-z))
 
 
 def sigmoid_prime(z):
@@ -29,22 +29,20 @@ class Network(object):
             a = sigmoid(np.dot(w, a)+b)
         return a
 
-    def SGD(self, training_data, epochs, bathc_size, eta, test_data=None):
+    def SGD(self, training_data, epochs, batch_size, eta, test_data=None):
         if test_data != None:
             n_test = len(test_data)
         n = len(training_data)
         # 进行epochs次循环
-        for j in range(epochs):
-            np.random.shuffle(training_data)
+        for j in xrange(epochs):
+            random.shuffle(training_data)
             # 将training data切分
-            mini_batches = [training_data[k:k+bathc_size]
-                            for k in range(0, n, bathc_size)]
+            mini_batches = [training_data[k:k+batch_size]
+                            for k in range(0, n, batch_size)]
             for mini_batch in mini_batches:
                 self.update_mini_batch(mini_batch, eta)
             if test_data != None:
-                print("Epoch {} : {}/{}".format(j,
-                                                self.evaluate(test_data), n_test))
-                pass
+                print "Epoch {0} : {1}/{2}".format(j,self.evaluate(test_data), n_test)
             else:
                 print("Epoch {} Complete".format(j))
 
@@ -54,12 +52,13 @@ class Network(object):
         for x, y in mini_batch:
             # 调用backprop
             delta_nabla_b, delta_nabla_w = self.backprop(x, y)
-            nabla_b = [nb+dnb for nb, dnb in zip(nabla_b, delta_nabla_b)] # 这里是对nabla_b做了累加
+            # 这里是对nabla_b做了累加
+            nabla_b = [nb+dnb for nb, dnb in zip(nabla_b, delta_nabla_b)]
             nabla_w = [nw+dnw for nw, dnw in zip(nabla_w, delta_nabla_w)]
         self.weights = [w-(eta/len(mini_batch))*nw for w,
-                            nw in zip(self.weights, nabla_w)]
+                        nw in zip(self.weights, nabla_w)]
         self.biases = [b-(eta/len(mini_batch))*nb for b,
-                           nb in zip(self.biases, nabla_b)]
+                       nb in zip(self.biases, nabla_b)]
 
     def backprop(self, x, y):
         # 这里的反向传播只考虑一个样本输入的情况
@@ -75,11 +74,12 @@ class Network(object):
         zs = []  # list to store all the z vectors, layer by layer
         for b, w in zip(self.biases, self.weights):
             z = np.dot(w, activation)+b
-            zs.append(z) # 带权输入
+            zs.append(z)  # 带权输入
             activation = sigmoid(z)
-            activations.append(activation) # 激活值
+            activations.append(activation)  # 激活值
         # backward pass
-        delta = self.cost_derivative(activations[-1], y) * sigmoid_prime(zs[-1])
+        delta = self.cost_derivative(
+            activations[-1], y) * sigmoid_prime(zs[-1])
         nabla_b[-1] = delta
         nabla_w[-1] = np.dot(delta, activations[-2].transpose())
         # Note that the variable l in the loop below is used a little
